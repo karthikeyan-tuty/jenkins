@@ -18,7 +18,7 @@ namespace WebApplication5.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult index()
         {
             return View();
         }
